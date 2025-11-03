@@ -1,4 +1,4 @@
-BotCerveja V1.0
+BotCerveja V2.5
 
 - Envia uma mensagem automática no Discord confirmando que está online assim que inicia.
 
@@ -9,3 +9,6 @@ BotCerveja V1.0
 - Futuramente será expandido para incluir tarefas mais inteligentes e interações automáticas.
 
 - Adicionado ficheiro .env.
+
+UPDATE 2.5
+- Adicionado a capacidade de tocar música do youtube.
