@@ -24,3 +24,7 @@ args = "node bot.js"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[nix]
+channel = "stable-25_05"
+packages = ["ffmpeg"]
