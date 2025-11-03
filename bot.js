@@ -19,7 +19,7 @@ const queues = new Map();
 const pauseTimers = new Map();
 
 // ----------------- Data diária -----------------
-client.once('ready', () => {
+client.once('clientReady', () => {
     console.log(`Bot ligado como ${client.user.tag}`);
 
     const canal = client.channels.cache.get(CHANNEL_ID);
