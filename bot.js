@@ -8,7 +8,7 @@ const CHANNEL_ID = process.env.CHANNEL_ID;
 client.once('clientReady', () => {
     console.log(`Bot ligado como ${client.user.tag}`);
 
-    // Aviso de que está online
+    // Aviso de que está online quando inicia
     const canal = client.channels.cache.get(CHANNEL_ID);
     if (canal) canal.send(`⚡ BotCerveja está online e pronto!`);
 
