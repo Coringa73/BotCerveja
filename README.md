@@ -7,3 +7,5 @@ BotCerveja V1.0
 - Versão inicial com funcionalidades básicas de notificação diária.
 
 - Futuramente será expandido para incluir tarefas mais inteligentes e interações automáticas.
+
+- Adicionado ficheiro .env.
