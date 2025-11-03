@@ -10,7 +10,7 @@ client.once('clientReady', () => {
 
     // Aviso de que está online
     const canal = client.channels.cache.get(CHANNEL_ID);
-    if (canal) canal.send(`Estou online👌.`);
+    if (canal) canal.send(`⚡ BotCerveja está online e pronto!`);
 
     // Executa todos os dias às 09:00
     cron.schedule('0 9 * * *', () => {
